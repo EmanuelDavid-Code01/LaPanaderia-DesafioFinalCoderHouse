@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 600px) {
   h1 {
     color: brown;
   }
@@ -39,8 +39,10 @@
     width: 25%;
   }
 }
-@media (min-width: 901px) and (max-width: 1080px) {
-  .columna-25 {
+@media (min-width: 901px) and (max-width: 1500px) {
+  .columna {
+    padding-right: 15px;
+    padding-left: 15px;
     width: 25%;
   }
 }
@@ -105,11 +107,6 @@ footer ul.redes {
 
 footer .redes a {
   margin: 0 7.5px;
-}
-
-.columna {
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .container-fluid {

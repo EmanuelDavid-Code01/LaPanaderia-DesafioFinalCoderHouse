@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 600px) {
     h1 {
       color: brown;
     }
@@ -47,10 +47,11 @@
   }
   
   }
-  @media (min-width: 901px) and (max-width:1200px) {
-    .columna-25{
+  @media (min-width: 901px) and (max-width:1500px) {
+    .columna{
+      padding-right: 15px;
+      padding-left: 15px;
       width: 25%;
-  
   }
 
   }
