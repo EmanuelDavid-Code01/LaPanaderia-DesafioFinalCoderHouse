@@ -2,17 +2,62 @@
     h1 {
       color: brown;
     }
-    
+    .columna-mobile-100{
+      width: 100%;
+  
+  }
   }
   /* 0 PIXELES A 600PX */
   @media (min-width: 601px) and (max-width: 900px) {
     h1 {
       color: chartreuse;
     }
+    footer{
+      text-align: center;
+  }
+   /* de esta forma achicamos la imagen, del footer, y la dejamos centrada */
+  footer .logo-footer{
+     
+      width: 50%;
+  }
+  footer ul .redes{
+  
+  justify-content: center;
+  
+  }
+  
+  footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin: 10px;
+  }
+  .row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px}
+  
+    .columna-25{
+      width: 25%;
+  
+  }
+  
+  }
+  @media (min-width: 901px) and (max-width:1080px) {
+    .columna-25{
+      width: 25%;
+  
+  }
+
   }
   /* 601 PIXELES A 900PX */
   @media print and (min-width: 300px) {
      h1 {
     color: black;
   }
+  
 }
