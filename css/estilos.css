@@ -123,4 +123,10 @@ footer .redes a {
   position: relative;
 }
 
+div.container-fluid.nav {
+  padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /*# sourceMappingURL=estilos.css.map */
