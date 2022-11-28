@@ -6,9 +6,15 @@
       width: 100%;
   
   }
+  .container.Top{
+    margin-top: 72px;
+  }
   }
   /* 0 PIXELES A 600PX */
   @media (min-width: 601px) and (max-width: 900px) {
+    .container.Top{
+      margin-top: 72px;
+    }
     h1 {
       color: chartreuse;
     }
@@ -52,6 +58,9 @@
       padding-right: 15px;
       padding-left: 15px;
       width: 25%;
+  }
+  .container.Top{
+    margin-top: 72px;
   }
 
   }

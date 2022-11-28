@@ -5,9 +5,15 @@
   .columna-mobile-100 {
     width: 100%;
   }
+  .container.Top {
+    margin-top: 72px;
+  }
 }
 /* 0 PIXELES A 600PX */
 @media (min-width: 601px) and (max-width: 900px) {
+  .container.Top {
+    margin-top: 72px;
+  }
   h1 {
     color: chartreuse;
   }
@@ -44,6 +50,9 @@
     padding-right: 15px;
     padding-left: 15px;
     width: 25%;
+  }
+  .container.Top {
+    margin-top: 72px;
   }
 }
 /* 601 PIXELES A 900PX */
@@ -109,9 +118,32 @@ footer .redes a {
   margin: 0 7.5px;
 }
 
+.container.Top {
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  --bs-btn-border-color: #343a40;
+  --bs-btn-hover-color: #3D6675;
+  --bs-btn-border-width:0px;
+}
+
 .imagen {
   background-image: url(https://i.pinimg.com/originals/4e/79/be/4e79becb3cafb329bdffb22f6134462a.jpg);
-  background-size: 100%;
+  background-size: contain;
+  opacity: 80%;
+}
+
+a.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #3D6675;
+}
+
+.colorFondo {
+  background-color: #3D6675;
 }
 
 .container-fluid {
