@@ -15,7 +15,7 @@
     <header>
         <div class="container-fluid" id="navbarTogglerDemo01">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#">Imagen de logo</a>
+                <a class="navbar-brand" href="index.html">Imagen de logo</a>
                 <div class="btn-group">
                     <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -58,13 +58,13 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Registrate</a>
+                                        <a class="nav-link" aria-current="page" href="registrate.html">Registrate</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="tienda.html">Tienda</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Nosotros</a>
+                                        <a class="nav-link" href="nosotros.html">Nosotros</a>
                                     </li>
                                 </ul>
                             </div>
@@ -76,158 +76,167 @@
     </header>
     <hr>
     <div class="espacio"></div>
-<main>
-    <div class="container-fluid">
-        <div class="row featurette">
-            <div class="col-md-6 order-md-1">
-                <img class="img-fluid" src="imagenes/Logo/img registrate.jpg" alt="">
+    <main>
+        <div class="container-fluid">
+            <div class="row featurette">
+                <div class="col-md-4 order-md-1 imagen-padding">
+                    <img class="img-fluid" src="Imagenes/MolinoDeVientoRegistrate.jpg" alt="RegistrateIMG">
+                </div>
+                <br>
+                <div class="col-md-4 order-md-1 paddingForm">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Correo electrónico</label>
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="emadg07@gmail.com">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Contraseña</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="123456">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Dirección</label>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="3740 marmol">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Nacionalidad</label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Argentino">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Teléfono</label>
+                                <input type="number" class="form-control" id="inputPassword4"
+                                    placeholder="011 15892345">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">Ciudad</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="Buenos Aires">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">Partido</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Elige</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Recordarme
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </form>
+
+                </div>
+                <div class="col-md-4 order-md-1">
+                    <img class="img-fluid" src="Imagenes/MolinoDeVientoRegistrate.jpg" alt="RegistrateIMG">
+                </div>
             </div>
-            <br>
-            <div class="col-md-6 order-md-1">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Correo electrónico</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="emadg07@gmail.com">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Contraseña</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="123456">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Dirección</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="3740 marmol">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Nacionalidad</label>
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Argentino">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Teléfono</label>
-                            <input type="number" class="form-control" id="inputPassword4" placeholder="011 15892345">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">Ciudad</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Buenos Aires">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputState">Partido</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Elige</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Recordarme
-                            </label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Ingresar</button>
-                </form>
+    </main>
+    <hr>
+    <footer class="secction">
 
-            </div>
-        </main>
-        <hr>
-            <footer class="secction">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="columna columna-25 columna-mobile-100">
 
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="columna columna-25 columna-mobile-100">
+                    <img src="img/logo-blanco.png" alt="logo-blanco" class="logo-footer">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima qui ab sapiente minus
+                        consectetur, quasi quaerat quisquam.
 
-                            <img src="img/logo-blanco.png" alt="logo-blanco" class="logo-footer">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima qui ab sapiente minus
-                                consectetur, quasi quaerat quisquam.
-
-                            </p>
-                        </div>
-
-                        <div class="columna columna-25 columna-mobile-100">
-                            <h3>
-                                Temas relacionados con el contenido
-                            </h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        Tema 1
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Tema 2
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Tema 3
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="columna columna-25 columna-mobile-100">
-                            <h3>
-                                Datos de Contacto
-                            </h3>
-
-                            <ul>
-                                <li>
-                                    emadg07.ed@gmail.com
-                                </li>
-                                <li>
-                                    7720-3250
-                                </li>
-                                <li>
-                                    Marmol 3740 - Argentina <br> Buenos Aires.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="columna columna-25 columna-mobile-100">
-                            <h3>
-                                Redes Sociales
-                            </h3>
-                            <ul class="redes">
-                                <li>
-                                    <a href="#">
-                                        <!-- i es para darle inclinacion a las letras italicas -->
-                                        <i class="fab fa-facebook-square"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter-square"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    </p>
                 </div>
 
-                <div class="barra-footer">
-                    &copy; Derechos Reservados - 2022
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Temas relacionados con el contenido
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Tema 1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Tema 2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Tema 3
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </footer>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Datos de Contacto
+                    </h3>
+
+                    <ul>
+                        <li>
+                            emadg07.ed@gmail.com
+                        </li>
+                        <li>
+                            7720-3250
+                        </li>
+                        <li>
+                            Marmol 3740 - Argentina <br> Buenos Aires.
+                        </li>
+                    </ul>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Redes Sociales
+                    </h3>
+                    <ul class="redes">
+                        <li>
+                            <a href="#">
+                                <!-- i es para darle inclinacion a las letras italicas -->
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="barra-footer">
+            &copy; Derechos Reservados - 2022
+        </div>
+    </footer>
 
 
-            <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
 
 
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-                crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 
 </html>
