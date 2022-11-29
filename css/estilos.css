@@ -162,6 +162,10 @@ div.paddingForm {
   padding-left: 10%;
 }
 
+div.pricing-header .p-3 .pb-md-4 .mx-auto .text-center {
+  margin-top: 75px;
+}
+
 .container-fluid {
   width: 100%;
   padding-left: 15px;
