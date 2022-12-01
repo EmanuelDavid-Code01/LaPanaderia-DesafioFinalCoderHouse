@@ -94,10 +94,6 @@ footer ul li {
   margin: 10px;
 }
 
-footer .logo-footer {
-  width: 100%;
-}
-
 footer p {
   color: white;
   margin-bottom: 30px;
@@ -138,6 +134,11 @@ div.imagen-padding {
   padding-left: 7%;
 }
 
+.imagenLogo {
+  width: 80px;
+  height: 48px;
+}
+
 a.nav-link {
   color: white;
 }
@@ -164,6 +165,23 @@ div.paddingForm {
 
 div.margin {
   margin-top: 75px;
+}
+
+.move:hover {
+  transition-duration: 230ms !important;
+  position: relative !important;
+  bottom: 20px !important;
+}
+
+div.card.mb-4.shadow-sm {
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+
+img.logo.aos-init.aos-animate {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-fluid {
