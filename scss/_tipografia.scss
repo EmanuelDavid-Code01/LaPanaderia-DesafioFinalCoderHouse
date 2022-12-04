@@ -1,3 +1,15 @@
+
+@font-face{
+  font-family:"Satisfy-Regular";
+  src:url(../fonts/Satisfy-Regular.ttf);
+}
+
+h1 .titulo{
+  font-family:"Satisfy-regular";
+  font-size: x-large;
+}
+
+
 .container.Top{
     color: #FFFFFF;
   }
@@ -6,3 +18,4 @@
     --bs-btn-hover-color: #3D6675;
     --bs-btn-border-width:0px;
   }
+

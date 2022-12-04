@@ -115,6 +115,14 @@ footer .redes a {
   margin: 0 7.5px;
 }
 
+@font-face {
+  font-family: "Satisfy-Regular";
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
+h1 .fw-light .colorFondo .animate__animated .animate__bounce {
+  font-family: "Satisfy-regular";
+}
+
 .container.Top {
   color: #FFFFFF;
 }
@@ -137,11 +145,6 @@ div.imagen-padding {
 .imagenLogo {
   width: 80px;
   height: 48px;
-}
-
-img.position {
-  position: relative;
-  top: -300px;
 }
 
 a.nav-link {
