@@ -139,6 +139,11 @@ div.imagen-padding {
   height: 48px;
 }
 
+img.position {
+  position: relative;
+  top: -300px;
+}
+
 a.nav-link {
   color: white;
 }
