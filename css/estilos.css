@@ -116,11 +116,12 @@ footer .redes a {
 }
 
 @font-face {
-  font-family: "Satisfy-Regular";
-  src: url(../fonts/Satisfy-Regular.ttf);
+  font-family: "AbrilFatface-Regular";
+  src: url(../fonts/AbrilFatface-Regular.ttf);
 }
-h1 .fw-light .colorFondo .animate__animated .animate__bounce {
-  font-family: "Satisfy-regular";
+h1 .titulo {
+  font-family: "AbrilFatface-Regular";
+  font-size: x-large;
 }
 
 .container.Top {
