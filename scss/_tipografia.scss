@@ -1,9 +1,6 @@
 
 
 
- body.h1{
-  font-family:"Abril Fatface";
- }
 
 .container.Top{
     color: #FFFFFF;
@@ -14,3 +11,6 @@
     --bs-btn-border-width:0px;
   }
 
+  h1.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
