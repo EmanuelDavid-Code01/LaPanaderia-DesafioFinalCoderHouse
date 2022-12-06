@@ -1,4 +1,6 @@
 @import 'animate.css';
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @media (min-width: 300px) and (max-width: 600px) {
   h1 {
     color: brown;
@@ -54,6 +56,9 @@
   }
   .container.Top {
     margin-top: 72px;
+  }
+  h1 {
+    font-family: "Abril Fatface";
   }
 }
 /* 601 PIXELES A 900PX */
@@ -115,15 +120,6 @@ footer .redes a {
   margin: 0 7.5px;
 }
 
-@font-face {
-  font-family: "AbrilFatface-Regular";
-  src: url(../fonts/AbrilFatface-Regular.ttf);
-}
-h1 .titulo {
-  font-family: "AbrilFatface-Regular";
-  font-size: x-large;
-}
-
 .container.Top {
   color: #FFFFFF;
 }
@@ -132,6 +128,10 @@ h1 .titulo {
   --bs-btn-border-color: #343a40;
   --bs-btn-hover-color: #3D6675;
   --bs-btn-border-width:0px;
+}
+
+h1.titulo {
+  font-family: "Abril Fatface", cursive;
 }
 
 .imagen {
